@@ -1,0 +1,9 @@
+#votes-fieldset {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+#votes-fieldset input {
+  margin-bottom: 10px;
+}

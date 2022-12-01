@@ -1,4 +1,17 @@
-#votes-fieldset {
+body {
+  background-color: burlywood;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+}
+
+#votes-fieldset,
+#show-statistics-area {
   width: 250px;
   display: flex;
   flex-direction: column;
@@ -6,4 +19,8 @@
 
 #votes-fieldset input {
   margin-bottom: 10px;
+}
+
+#show-statistics-area ul {
+  padding-left: 25px;
 }

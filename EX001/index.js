@@ -25,5 +25,5 @@ function showVotesStatistics(percentage1, percentage2, percentage3) {
     <li>Percentual de votos nulos: ${percentage2}%</li>
     <li>Percentual de votos válidos: ${percentage3}%</li>
   </ul>
-  `
+  `;
 }

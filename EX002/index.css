@@ -11,18 +11,18 @@ form {
   margin-top: 15vh;
 }
 
-#votes-fieldset,
-#show-statistics-area {
+#data-inputs-fieldset,
+#show-results-area {
   width: 250px;
   display: flex;
   flex-direction: column;
   background-color: rgba(255, 235, 205, 0.514);
 }
 
-#votes-fieldset input {
+#data-inputs-fieldset input {
   margin-bottom: 10px;
 }
 
-#show-statistics-area ul {
+#show-results-area ul {
   padding-left: 25px;
 }

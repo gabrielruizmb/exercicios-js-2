@@ -1,5 +1,6 @@
 body {
-  background-color: burlywood;
+  background-image: url('https://www.guiacampos.com/wp-content/uploads/2019/10/operarios-tarsila-1.jpg');
+  background-position-x: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -7,7 +8,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
 
 #votes-fieldset,
@@ -15,6 +16,7 @@ form {
   width: 250px;
   display: flex;
   flex-direction: column;
+  background-color: rgba(231, 155, 55, 0.562);
 }
 
 #votes-fieldset input {
